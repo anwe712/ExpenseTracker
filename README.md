@@ -1,4 +1,3 @@
-
 # 💸 Expense Tracker (Java + SQLite)
 
 A simple command-line-based Expense Tracker built in Java using SQLite. This project allows users to register/login, add expenses, set monthly budgets, and view a spending summary — all managed via a local database.
@@ -97,13 +96,6 @@ ExpenseTracker/
 - ⬜ REST API with Spring Boot
 - ⬜ React-based web frontend
 - ⬜ Hosting on Netlify + Render
-
----
-
-## 🧑‍💻 Author
-
-**Your Name**
-[GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourprofile)
 
 ---
 
