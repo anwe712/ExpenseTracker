@@ -1,6 +1,7 @@
+
 # 💸 Expense Tracker (Java + SQLite)
 
-A simple command-line based Expense Tracker built in Java using SQLite. This project allows users to register/login, add expenses, set monthly budgets, and view a spending summary — all managed via a local database.
+A simple command-line-based Expense Tracker built in Java using SQLite. This project allows users to register/login, add expenses, set monthly budgets, and view a spending summary — all managed via a local database.
 
 ---
 
@@ -34,62 +35,78 @@ A simple command-line based Expense Tracker built in Java using SQLite. This pro
 ```bash
 git clone https://github.com/yourusername/ExpenseTracker.git
 cd ExpenseTracker
-2. Compile the code
-bash
-Copy
-Edit
-javac -cp ".:sqlite-jdbc-<version>.jar" src/*.java
-3. Run the app
-bash
-Copy
-Edit
-java -cp ".:sqlite-jdbc-<version>.jar:src" Main
-📦 You can also build a .jar using:
+```
 
-bash
-Copy
-Edit
+### 2. Compile the code
+
+```bash
+javac -cp ".:sqlite-jdbc-<version>.jar" src/*.java
+```
+
+### 3. Run the app
+
+```bash
+java -cp ".:sqlite-jdbc-<version>.jar:src" Main
+```
+
+### 📦 Build a JAR file (Optional)
+
+You can also build a `.jar` file using:
+
+```bash
 jar cfe ExpenseTracker.jar Main -C src .
 java -cp "ExpenseTracker.jar:sqlite-jdbc-<version>.jar" Main
-🖼 Screenshots
+```
 
-Main Menu - Terminal Interface
+---
 
+## 🖼 Screenshots
 
-Monthly Summary Display
+### Main Menu - Terminal Interface
 
-📁 Project Structure
-css
-Copy
-Edit
+*(Add a screenshot here)*
+
+### Monthly Summary Display
+
+*(Add a screenshot here)*
+
+---
+
+## 📁 Project Structure
+
+```
 ExpenseTracker/
 ├── src/
 │   ├── Main.java
 │   ├── DBConnector.java
 │   ├── ExpenseManager.java
 │   ├── User.java
+├── database/
+│   ├── schema.sql
 ├── expense_tracker.db
 ├── sqlite-jdbc-<version>.jar
 └── README.md
-📌 To-Do (Future Enhancements)
-✅ CLI functionality (Completed)
-
-⬜ JavaFX GUI frontend
-
-⬜ REST API with Spring Boot
-
-⬜ React-based web frontend
-
-⬜ Hosting on Netlify + Render
-
-🧑‍💻 Author
-Your Name
-GitHub • LinkedIn
-
-📜 License
-MIT License — Free to use, modify, and share.
-
-yaml
-Copy
-Edit
 ```
+
+---
+
+## 📌 To-Do (Future Enhancements)
+
+- ✅ CLI functionality (Completed)
+- ⬜ JavaFX GUI frontend
+- ⬜ REST API with Spring Boot
+- ⬜ React-based web frontend
+- ⬜ Hosting on Netlify + Render
+
+---
+
+## 🧑‍💻 Author
+
+**Your Name**
+[GitHub](https://github.com/yourusername) • [LinkedIn](https://linkedin.com/in/yourprofile)
+
+---
+
+## 📜 License
+
+MIT License — Free to use, modify, and share.
